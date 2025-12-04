@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -25,7 +25,6 @@ export default function LandingPage() {
       cardStyle="solid-bordered"
       primaryButtonStyle="flat"
       secondaryButtonStyle="minimal"
-      showBlurBottom={true}
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
@@ -36,7 +35,6 @@ export default function LandingPage() {
             text: "Get Started",
             href: "contact"
           }}
-          className="bg-background border-b border-accent"
         />
       </div>
 
